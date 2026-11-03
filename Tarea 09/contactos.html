@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTOS | Condor Xtreme</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="img/condor.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Tagesschrift&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div id="contenedor"  style="background-color: white; height: auto;">
+        <header>
+            <a href="https://www.condorxtreme.com/">
+                <img src="img/logo.png" alt="logo">
+            </a>
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="destino.html">DESTINOS</a></li>
+                    <li><a href="contactos.html">CONTACTOS</a></li>
+                    <li><a href="video.html">VIDEOS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h5><i class="fa-solid fa-address-book"></i> contactos</h5>        
+        <main>
+            
+            <section id="info">
+                <h2>Información de Contacto</h2>
+                <table>
+                    <tr>
+                        <th>Dirección:</th>
+                        <td>Explanada Costa Verde del Distrito de Magdalena del Mar, Lima, Perú</td>
+                    </tr>
+                    <tr>
+                        <th>Teléfonos:</th>
+                        <td>+51 947392102</td>
+                    </tr>
+                    <tr>
+                        <th>Email:</th>
+                        <td>contact@condorxtreme.com</td>
+                    </tr>
+                </table>
+                <h2>Horario de atención</h2>
+                <table>
+                    <tr>
+                        <th>Área de Ventas:</th>
+                        <td>de Lunes a Viernes de 8 am a 6 pm.</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section id="formulario">
+                <h2>Escríbenos</h2>
+                <form action="#" method="post">
+                    <label for="nombre">Nombre y Apellido</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre completo" minlength="3" required>
+
+                    <label for="celular">Celular*</label>
+                    <input type="tel" id="celular" name="celular" placeholder="9 dígitos" pattern="[0-9]{9}" maxlength="9" required>
+
+                    <label for="correo">Correo electrónico *</label>
+                    <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com" required>
+
+                    <label for="ruc">RUC (Opcional)</label>
+                    <input type="text" id="ruc" name="ruc" placeholder="11 dígitos" pattern="[0-9]{11}" maxlength="11">
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Detalla tu requerimiento a continuación: punto de inicio y fin, tipo de unidad, número de personas, fecha y horario del servicio." required></textarea>
+
+                    <button type="submit">ENVIAR</button>
+                </form>
+            </section>
+
+            <aside id="mapa">
+                <iframe src="https://maps.google.com/maps?q=Costa%20Verde%20Magdalena%20del%20Mar%20Lima&output=embed" title="Mapa de ubicación" loading="lazy"></iframe>
+            </aside>
+        </main>
+        <footer>
+            <h4>© Condor Xtreme 2024 Todos los derechos reservados</h4>
+            <div>
+                <address>
+                    <ul>
+                        <li>Explanada Costa Verde del Distrito de Magdalena del Mar</li>
+                        <li>+51 947392102</li>
+                        <li>contact@condorxtreme.com</li>
+                    </ul>
+                </address>
+                <nav>
+                    <p>Redes Sociales: </p>
+                    <ul id="redes">
+                        <li><a href="https://web.facebook.com/condorXtreme?_rdc=1&_rdr#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com/condor_xtreme"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://api.whatsapp.com/send/?phone=51947392102&text=Deseo+realizar+un+consulta+personalizada+sobre...+&type=phone_number&app_absent=0"><i class="fa-brands fa-whatsapp"></i></a></li>
+                        <li><a href="https://www.youtube.com/condorxtremeperu"><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
